@@ -15,7 +15,7 @@ Our repository URLs pass all the validations in the OAI-PMH Validator & data-ext
 
 Additionally, we have successfully tested the URLs against a harvester client phpoaipmh (https://github.com/caseyamcl/phpoaipmh)
 
-So far, we have been unsuccessful at getting these URLs to integrate with our Alma library management system. 
+So far, we have been unsuccessful at getting these URLs to integrate with our Alma library management system. We had initial success with the integration in our staging environment, but since deploying to the production verson of our repositories, Alma reports that 0 records are found/processed though it seems able to identifier specific records. Below are some screenshots of the integration attempts.
 
 ![screen1](https://github.com/benicetootters/bwdnci-oai/assets/32641676/8e8c779d-d2b8-4f55-b366-6a3fed3130ae)
 
